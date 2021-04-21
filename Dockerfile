@@ -11,11 +11,13 @@ RUN go get -u gorm.io/driver/mysql
 
 COPY . .
 
-RUN cd src/golangdemo
+RUN cd /src/golangdemo
+RUN ls
+RUN ls /src/golangdemo
+WORKDIR /src/golangdemo
 RUN ls
 
-
-RUN go build ./src/golangdemo/main.go
+RUN go build main.go
 
 EXPOSE 
 
