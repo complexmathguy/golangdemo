@@ -1,5 +1,8 @@
 FROM golang:1.16
-RUN apk update && apk add --no-cache git
+
+RUN apt-get update --fix-missing && \
+apt-get install -y git
+
 
 RUN go get github.com/gorilla/mux
 RUN go get -u gorm.io/gorm
