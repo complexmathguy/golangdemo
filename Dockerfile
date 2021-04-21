@@ -12,6 +12,8 @@ RUN go get -u gorm.io/driver/mysql
 COPY . .
 
 RUN cd src/golangdemo
+RUN ls
+
 
 RUN go build
 
