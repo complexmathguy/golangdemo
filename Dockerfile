@@ -1,4 +1,4 @@
-FROM golang:1.12.0-alpine3.9
+FROM golang:1.16
 RUN apk update && apk add --no-cache git
 
 RUN go get github.com/gorilla/mux
