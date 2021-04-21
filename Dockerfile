@@ -18,7 +18,7 @@ RUN ls
 
 RUN go build main.go
 
-EXPOSE 
+EXPOSE 8088
 
 #Command to run the executable
 CMD ["./src/golangdemogolangdemo"]
