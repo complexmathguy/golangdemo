@@ -13,9 +13,6 @@ COPY . .
 
 RUN cd src/golangdemo
 
-RUN go mod init golangdemo
-RUN go mod tidy
-
 RUN go build
 
 EXPOSE 
