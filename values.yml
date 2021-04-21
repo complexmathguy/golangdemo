@@ -1,0 +1,9 @@
+gitRepo:
+  gitProvider: git_test_go
+  path: complexmathguy/golangdemo
+  DockerUserName: tylertravismya
+  DockerPassword: 69cutlass
+  DockerOrgName: theharbormaster
+  DockerRepo: golangdemo
+  DockerHost: 
+  DockerTag: latest
