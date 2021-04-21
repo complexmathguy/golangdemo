@@ -15,9 +15,9 @@ RUN cd src/golangdemo
 RUN ls
 
 
-RUN go build
+RUN go build ./src/golangdemo/main.go
 
 EXPOSE 
 
 #Command to run the executable
-CMD ["./golangdemo"]
+CMD ["./src/golangdemogolangdemo"]
