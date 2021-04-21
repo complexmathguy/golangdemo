@@ -11,7 +11,7 @@ RUN go get -u gorm.io/driver/mysql
 
 COPY . .
 
-WORKDIR cd src/golangdemo
+RUN cd src/golangdemo
 
 RUN go mod init golangdemo
 RUN go mod tidy
