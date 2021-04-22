@@ -21,4 +21,4 @@ RUN go build main.go
 EXPOSE 8088
 
 #Command to run the executable
-CMD ["./src/golangdemogolangdemo"]
+CMD ["./golangdemo"]
